@@ -39,6 +39,9 @@ If you are short on time, use the "Minimal Data Contract" section in the SE guid
 ## Which File Should I Use?
 
 - I am new and need a script: `docs/se-instructions-5-minute.md`
+- I need to understand what this does: `docs/how-migration-acceleration-works.md`
+- I need RACI and when to call in specialists: `docs/raci-and-escalation-matrix.md`
+- I need to track the pilot accounts: `docs/pilot-kickoff-and-tracker.md`
 - I need strategy/detail for leads: `docs/merged-prototype-spec.md`
 - I need to fill readiness output: `templates/loop-readiness-output-template.md`
 - I need to fill nomination pack: `templates/factory-nomination-pack-template.md`
