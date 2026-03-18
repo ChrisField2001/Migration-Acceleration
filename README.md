@@ -66,6 +66,13 @@ If you are short on time, use the "Minimal Data Contract" section in the SE guid
 - Bi-weekly: review friction patterns and CSU/Factory rework causes
 - Every 3-4 weeks: release updated prompts/templates
 
+## Account Folder Starter
+
+Use this copy-ready folder for each new customer account:
+- `accounts/00-account-template/`
+
+It contains all engagement files in order (`01` to `05`) so SEs can run the same workflow every time.
+
 ## Recommended First Pilot
 
 - Pilot with 3 active accounts
