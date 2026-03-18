@@ -20,6 +20,13 @@ This repo has an execution-ready starter kit for a merged IC63 workflow:
 - Module B: Factory Intake Generator
 - Unified cycle: Prototype -> Feedback -> Review -> Improve -> Repeat
 
+## Start Here - Understand The Flow First
+
+Before opening any template or guide, read this one page to understand what you are doing and why:
+- `docs/how-migration-acceleration-works.md`
+
+It explains the 6-stage flow in plain English and tells you which file to use at each stage.
+
 ## New SE Start Here (10 Minutes)
 
 If this is your first time using this toolkit, do only this:
