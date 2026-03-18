@@ -23,7 +23,7 @@ This repo has an execution-ready starter kit for a merged IC63 workflow:
 ## Start Here - Understand The Flow First
 
 Before opening any template or guide, read this one page to understand what you are doing and why:
-- `docs/how-migration-acceleration-works.md`
+- `docs/01-how-migration-acceleration-works.md`
 
 It explains the 6-stage flow in plain English and tells you which file to use at each stage.
 
@@ -32,44 +32,33 @@ It explains the 6-stage flow in plain English and tells you which file to use at
 If this is your first time using this toolkit, do only this:
 
 0. Read what this framework actually does:
-- docs/how-migration-acceleration-works.md
-1. Open the beginner guide: `docs/se-instructions-5-minute.md`
+- `docs/01-how-migration-acceleration-works.md`
+1. Open the SE runbook:
+- `docs/02-se-instructions.md`
 2. Ask the customer only the 10 core questions in that guide
 3. Fill two templates:
-- `templates/loop-readiness-output-template.md`
-- `templates/factory-nomination-pack-template.md`
+- `templates/01-loop-readiness-output-template.md`
+- `templates/02-factory-nomination-pack-template.md`
 4. Share outputs with CSU/Factory and log 1-minute feedback:
-- `templates/feedback-form-template.md`
+- `templates/03-feedback-form-template.md`
 
 If you are short on time, use the "Minimal Data Contract" section in the SE guide.
 
 ## Which File Should I Use?
 
-- I am new and need a script: `docs/se-instructions-5-minute.md`
-- I need to understand what this does: `docs/how-migration-acceleration-works.md`
-- I need RACI and when to call in specialists: `docs/raci-and-escalation-matrix.md`
-- I need to track the pilot accounts: `docs/pilot-kickoff-and-tracker.md`
-- I need strategy/detail for leads: `docs/merged-prototype-spec.md`
-- I need to fill readiness output: `templates/loop-readiness-output-template.md`
-- I need to fill nomination pack: `templates/factory-nomination-pack-template.md`
-- I need to log quick feedback: `templates/feedback-form-template.md`
-
-## Start Here
-
-1. Read the merged implementation spec:
-- `docs/merged-prototype-spec.md`
-2. Use SE quick-start instructions:
-- `docs/se-instructions-5-minute.md`
-3. Run prompts in Copilot workflow:
-- `prompts/readiness-assessment-agent.prompt.md`
-- `prompts/factory-intake-generator.prompt.md`
-4. Produce Loop outputs:
-- `templates/loop-readiness-output-template.md`
-- `templates/factory-nomination-pack-template.md`
-5. Capture iteration feedback:
-- `templates/feedback-form-template.md`
-6. Track delivery work:
-- `backlog/devops-backlog.md`
+| I need to... | File |
+|---|---|
+| Understand the flow | `docs/01-how-migration-acceleration-works.md` |
+| Run a customer discovery call | `docs/02-se-instructions.md` |
+| Know when to bring in specialists | `docs/03-raci-and-escalation-matrix.md` |
+| Track pilot accounts | `docs/04-pilot-kickoff-and-tracker.md` |
+| Read the detailed spec (leads/IC63) | `docs/05-merged-prototype-spec.md` |
+| Fill readiness output | `templates/01-loop-readiness-output-template.md` |
+| Fill nomination pack | `templates/02-factory-nomination-pack-template.md` |
+| Log quick feedback | `templates/03-feedback-form-template.md` |
+| Run AI readiness prompt | `prompts/01-readiness-assessment-agent.prompt.md` |
+| Run AI intake generator prompt | `prompts/02-factory-intake-generator.prompt.md` |
+| Track delivery backlog | `backlog/devops-backlog.md` |
 
 ## Suggested Operating Cadence
 
