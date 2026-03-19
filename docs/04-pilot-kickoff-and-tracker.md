@@ -5,20 +5,20 @@ Track progress of the 3 pilot accounts running through the migration acceleratio
 This is not a delivery plan. It is a pre-sales execution tracker.
 
 ## Pilot Objectives
-- Validate the 10-question discovery flow works on real accounts
-- Produce at least one nomination-quality pack per account
+- Validate the commit-focused discovery flow works on real accounts
+- Produce at least one commit-quality decision package per account
 - Capture friction and feed it into v2 improvements
 - Prove the SE time cost is under 60 minutes per account
 
 ## Pilot Accounts
 
-| Account | SE Owner | Start Date | Status | Score | Nomination Sent |
+| Account | SE Owner | Start Date | Status | Stage Movement | Nomination Sent |
 |---|---|---|---|---|---|
-| Account 1 | TBD | TBD | Not Started | - | No |
-| Account 2 | TBD | TBD | Not Started | - | No |
-| Account 3 | TBD | TBD | Not Started | - | No |
+| Account 1 | TBD | TBD | Not Started | Uncommitted -> TBD | No |
+| Account 2 | TBD | TBD | Not Started | Uncommitted -> TBD | No |
+| Account 3 | TBD | TBD | Not Started | Uncommitted -> TBD | No |
 
-Status options: Not Started / In Discovery / Scoring / Pre-Work / Nominated / Complete
+Status options: Not Started / In Discovery / Gap Closure / Commit Check / Nominated / Complete
 
 ## Per-Account Execution Checklist
 Copy this block for each account.
@@ -30,14 +30,14 @@ Copy this block for each account.
 - Target nomination date:
 
 Discovery step:
-- [ ] 10 core questions asked and captured
+- [ ] Commit-critical discovery questions asked and captured
 - [ ] Unknowns explicitly marked
-- [ ] Conditional follow-ups triggered (list which, if any)
+- [ ] Opportunity stage and target commit date captured
 
-Scoring step:
-- [ ] Each question scored 0, 1, or 2
-- [ ] Weighted score calculated
-- [ ] Status band confirmed: Not Ready / Needs Pre-Work / Ready to Nominate
+Commit check step:
+- [ ] Commit gate checklist completed
+- [ ] Decision process and economic buyer path confirmed
+- [ ] Recommendation captured: stay Uncommitted or move Committed
 
 Pre-work step:
 - [ ] Top 3 blockers identified
@@ -65,6 +65,7 @@ Feedback step:
 | Metric | Target | Pilot Result |
 |---|---|---|
 | Time from first call to nomination pack | Under 60 minutes SE time | TBD |
+| Stage movement confidence quality | 100% with explicit rationale | TBD |
 | Nomination rework requested | Zero or one iteration | TBD |
 | Blockers with named owner and date | 100% | TBD |
 | SE usability score | 4/5 or higher | TBD |

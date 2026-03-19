@@ -8,8 +8,9 @@ This toolkit is not a replacement for CSA, Factory, or delivery services.
 It is a pre-sales acceleration layer that improves information quality and handoff readiness.
 
 Primary intent:
-- Capture the right customer information early
-- Identify gaps quickly
+- Qualify opportunities with enough confidence to move from Uncommitted to Committed in MCEM
+- Capture only the data required for commit decisions and quality handoff
+- Identify risks and unknowns early with clear owner/date accountability
 - Bring in the right experts (CSA, Factory, security, networking) at the right time
 - Reduce rework caused by incomplete pre-sales discovery
 
@@ -35,8 +36,9 @@ If this is your first time using this toolkit, do only this:
 - `docs/01-how-migration-acceleration-works.md`
 1. Open the SE runbook:
 - `docs/02-se-instructions.md`
-2. Ask the customer only the 10 core questions in that guide
-3. Fill two templates:
+2. Capture only commit-critical discovery inputs from the customer
+3. Fill account discovery and two output templates:
+- `accounts/00-account-template/01-discovery-answers.md`
 - `templates/01-loop-readiness-output-template.md`
 - `templates/02-factory-nomination-pack-template.md`
 4. Share outputs with CSU/Factory and log 1-minute feedback:
@@ -53,6 +55,7 @@ If you are short on time, use the "Minimal Data Contract" section in the SE guid
 | Know when to bring in specialists | `docs/03-raci-and-escalation-matrix.md` |
 | Track pilot accounts | `docs/04-pilot-kickoff-and-tracker.md` |
 | Read the detailed spec (leads/IC63) | `docs/05-merged-prototype-spec.md` |
+| Capture commit-focused discovery answers | `accounts/00-account-template/01-discovery-answers.md` |
 | Fill readiness output | `templates/01-loop-readiness-output-template.md` |
 | Fill nomination pack | `templates/02-factory-nomination-pack-template.md` |
 | Log quick feedback | `templates/03-feedback-form-template.md` |
@@ -76,8 +79,9 @@ It contains all engagement files in order (`01` to `05`) so SEs can run the same
 ## Recommended First Pilot
 
 - Pilot with 3 active accounts
-- Run "Do Both" mode for each account
+- Run commit-focused discovery plus "Do Both" mode for each account
 - Measure:
+	- conversion from Uncommitted to Committed
 	- time to nomination pack
 	- nomination rework requested by CSU/Factory
 	- repeated blocker categories

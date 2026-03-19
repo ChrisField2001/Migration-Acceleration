@@ -1,165 +1,56 @@
-# SE Instructions - First Run Guide (Beginner Friendly)
+# SE Instructions - MCEM Commit Qualification Runbook
 
-## Read This First
-This page is written for any SE, including first week in role.
-You do not need deep migration experience to run this.
+## Objective
+As the SE, your role is to qualify the opportunity and collect the minimum decision data to support movement from Uncommitted to Committed.
 
-This process is not replacing CSA, Factory, or delivery teams.
-It helps you collect complete pre-sales information and escalate to the right specialists faster.
+Do not run detailed delivery scoping in this workflow.
 
-Your job is simple:
-- Ask 10 questions
-- Capture answers
-- Share 2 outputs
+## What To Do In Order
+1. Run one structured discovery call.
+2. Capture answers in `accounts/00-account-template/01-discovery-answers.md`.
+3. Complete the commit gate check in `accounts/00-account-template/06-commit-gate-check.md`.
+4. Produce readiness and nomination outputs.
+5. Share with CSU/Factory and log feedback.
 
-## Goal
-Use one workflow to quickly assess migration readiness and produce a Factory nomination pack for an active NHS account.
+## Discovery Interview (30 minutes)
+Ask only what is required for commit confidence.
 
-## What To Do In Order (No Guesswork)
-1. Start customer call and ask the 10 core questions in this file.
-2. Keep answers short. Mark unknowns as "Unknown".
-3. Score each question 0, 1, or 2.
-4. Copy results into readiness template.
-5. Copy scope and assumptions into nomination template.
-6. Share both files with CSU/Factory.
+1. What business outcome are we selling and why now?
+2. What must be true for the customer to approve commitment?
+3. Who is the economic buyer and approval path?
+4. What is in scope for Wave-1 and explicitly out of scope?
+5. What assumptions are we using for timeline and sizing?
+6. What is the RAG status for identity, landing zone/network, subscription/quota, and data dependencies?
+7. What are the top 3 risks to commitment with impact, owner, and date?
+8. What unknowns block commitment and when will they be resolved?
+9. What customer actions are required in the next 2 weeks?
+10. What Microsoft actions are required in the next 2 weeks?
 
-## What You Need Before Starting
-- Current discovery notes
-- Known blockers and dependencies
-- Target timeline
-- Customer stakeholders and owners
+## Quality Rules
+- Capture unknowns explicitly.
+- Every critical risk or blocker needs an owner and target date.
+- Keep scope high-level (presales), not implementation-level.
+- Separate facts from assumptions.
 
-If you do not have all items, still continue and mark gaps as "Unknown".
+## Exit Criteria Before Recommendation
+Only recommend Committed when all are true:
+- Decision process and buyer path are clear.
+- Commit date is realistic and supported.
+- Wave-1 scope is explicit at presales level.
+- Readiness RAG is complete with one-line reasons.
+- Top risks have ownership and mitigation dates.
+- Required artifacts (scope note, ROM, plan, risks) are ready or scheduled with owners.
 
-## What To Say On The Call (Suggested Script)
-"I will ask 10 short questions so we can quickly identify blockers, ownership, and next actions. If something is unknown, that is fine and we will capture it."
+## If Not Commit-Ready
+Stay Uncommitted and define a dated closure plan:
+- Missing decision information
+- Missing ownership
+- Missing artifacts
+- Missing readiness signals
 
-## 5-Minute Flow
-1. Open your chosen entry point (Copilot prompt workflow, Copilot Studio agent, or Power App).
-2. Choose one mode:
-- Option 1: Run Readiness Assessment
-- Option 2: Generate Factory Intake
-- Option 3: Do Both (recommended)
-3. Paste or upload discovery notes.
-4. Answer guided questions (keep unknowns explicit).
-5. Export outputs to Loop using templates in this repo.
-6. Share with CSU/Factory/partner.
-7. Submit feedback in under 1 minute.
-
-## The Only Questions You Need To Ask
-Ask these in order and stop there unless a trigger fires later.
-
-1. What business outcome and deadline are we committing to in this wave?
-2. Which workloads are in scope for wave 1, and what is explicitly out of scope?
-3. What are the top 3 dependencies (identity, network, data) that must land before migration?
-4. Are identity controls ready (MFA, CA, privileged access model)?
-5. Is landing zone and networking path approved (DNS, connectivity, policy)?
-6. Are platform quotas, subscriptions, and environments ready (dev/test/uat/prod)?
-7. Who owns each blocker and by when (named owner + target date)?
-8. What modernization opportunities are viable now (replatform/refactor), not later?
-9. What security uplift opportunities should be bundled into the wave?
-10. What 1-2 AI opportunities are practical in 6-8 weeks with measurable value?
-
-## Simple Answer Format To Capture During Call
-- Q1:
-- Q2:
-- Q3:
-- Q4:
-- Q5:
-- Q6:
-- Q7:
-- Q8:
-- Q9:
-- Q10:
-
-## Good Input Example
-- "Identity federation agreed but conditional access exceptions unresolved; DNS cutover dependent on third-party provider timeline; quota increase requested but not approved yet."
-
-## What Good Output Looks Like
-- Clear readiness status and score
-- Blockers with owners and dates
-- Explicit dependency sequence
-- Nomination pack with assumptions and open decisions
-
-## Common Mistakes to Avoid
-- Hiding unknowns in narrative text
-- Missing owner for critical blocker
-- Mixing assumptions with confirmed facts
-- Sending nomination without dependency clarity
-
-## Exit Criteria Before You Share
-- At least top 5 actions identified
-- Every blocker has owner or "owner missing"
-- Open questions are decision-ready
-- CSU/Factory can understand context without extra meetings
-
-## 30-Minute Core Interview (Weighted)
-Use this after the call notes are captured.
-
-Scoring per question:
-- 0 = Unknown / no evidence
-- 1 = Partial / at risk
-- 2 = Confirmed / evidenced
-
-Weighted readiness score:
-- `Weighted Score (%) = sum((response_score / 2) * weight)`
-- Target thresholds:
-- 80-100 = Ready to Nominate
-- 50-79 = Needs Pre-Work
-- 0-49 = Not Ready
-
-Quick scoring example:
-- If Question 2 has weight 12 and score 1, contribution is 6 points.
-- If Question 2 has score 2, contribution is 12 points.
-
-| # | Core Question | Weight | Why It Matters |
-|---|---|---:|---|
-| 1 | What business outcome and deadline are we committing to in this wave? | 8 | Aligns migration scope and delivery urgency. |
-| 2 | Which workloads are in scope for wave 1, and what is explicitly out of scope? | 12 | Prevents scope drift and failed nominations. |
-| 3 | What are the top 3 dependencies (identity, network, data) that must land before migration? | 12 | Surfaces sequencing risk early. |
-| 4 | Are identity controls ready (MFA, CA, privileged access model)? | 10 | High security and access risk if unclear. |
-| 5 | Is landing zone and networking path approved (DNS, connectivity, policy)? | 12 | Common blocker for migration execution. |
-| 6 | Are platform quotas, subscriptions, and environments ready (dev/test/uat/prod)? | 8 | Avoids preventable deployment delays. |
-| 7 | Who owns each blocker and by when (named owner + target date)? | 12 | Ownership clarity is critical to unblock progress. |
-| 8 | What modernization opportunities are viable now (replatform/refactor), not later? | 8 | Captures value beyond lift-and-shift. |
-| 9 | What security uplift opportunities should be bundled into the wave? | 8 | Raises resilience and compliance posture. |
-| 10 | What 1-2 AI opportunities are practical in 6-8 weeks with measurable value? | 10 | Ensures innovation is scoped to near-term outcomes. |
-
-Total weight = 100
-
-## Conditional Follow-Ups (Only Ask If Needed)
-Do not ask deep follow-ups unless the core question scores 0 or 1.
-
-- Trigger A (Identity scored 0-1):
-	- Which apps require legacy auth and exception paths?
-	- What CA policies block current user journeys?
-- Trigger B (LZ/Network scored 0-1):
-	- Where are DNS/routing ownership boundaries unclear?
-	- What external lead times exist (third-party network/provider)?
-- Trigger C (Scope/Dependency scored 0-1):
-	- Which upstream systems can delay cutover?
-	- What is the minimum viable wave if dependency is delayed?
-- Trigger D (Ownership scored 0-1):
-	- Which blocker has no accountable owner today?
-	- What is the escalation path and decision date?
-- Trigger E (AI opportunity scored 0-1):
-	- Which repetitive workflow has clear baseline metrics today?
-	- What data can safely ground an AI pilot?
-
-## Minimal Data Contract (Required Every Time)
-Capture only these fields if time is tight:
-- Customer and wave-1 scope
-- Target date
-- Top 3 blockers
-- Blocker owners + dates
-- Dependency sequence
-- Open decisions
-
-Everything else is optional unless a trigger fires.
-
-## First-Time SE Definition Of Done
-You are done for this account when all items below are true:
-- You asked all 10 core questions
-- You have top 3 blockers and owners
-- You have a dependency sequence
-- You shared both templates with CSU/Factory
+## Output Artifacts
+- Discovery answers: `accounts/00-account-template/01-discovery-answers.md`
+- Commit gate check: `accounts/00-account-template/06-commit-gate-check.md`
+- Readiness output: `templates/01-loop-readiness-output-template.md`
+- Nomination pack: `templates/02-factory-nomination-pack-template.md`
+- Feedback: `templates/03-feedback-form-template.md`

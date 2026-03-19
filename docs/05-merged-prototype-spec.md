@@ -3,7 +3,7 @@
 ## Audience
 This document is for initiative owners, leads, and reviewers.
 If you are an SE running a customer call, start here instead:
-- `docs/se-instructions-5-minute.md`
+- `docs/02-se-instructions.md`
 
 ## 1) Purpose
 This prototype combines two initiatives into one repeatable operating flow:
@@ -16,6 +16,7 @@ Positioning principles:
 - This improves information quality, identifies gaps early, and routes work to the right specialist teams.
 
 Primary outcomes:
+- Improve confidence to move opportunities from Uncommitted to Committed
 - Reduce recurring migration blockers
 - Improve nomination quality to CSU/Factory
 - Increase reuse across NHS accounts
@@ -25,7 +26,7 @@ Primary outcomes:
 In scope (v1):
 - Structured readiness interview
 - Blocker and ownership capture
-- Readiness scoring and status
+- Commit confidence recommendation and status
 - Discovery-to-intake transformation
 - Standardized output templates for Loop and handoff
 
@@ -65,23 +66,19 @@ Out of scope (v1):
 - Sequencing and critical dependencies
 
 ### Output
-- Readiness score (0-100)
-- Status band:
-- 80-100: Ready to Nominate
-- 50-79: Needs Pre-Work
-- 0-49: Not Ready
+- Commit confidence summary with recommendation:
+- Move to Committed, or
+- Stay Uncommitted with closure plan
 - Blocker list with owner and target date
 - Dependency map (what must happen before nomination)
 - Recommended next actions (top 5)
 - Loop-ready summary
 
-### Scoring v1
-- Score each domain 0-2:
-- 0 = Not started / unknown
-- 1 = Partial / at risk
-- 2 = Ready / confirmed
-- Readiness score = (sum domain points / max points) * 100
-- Add penalty of -10 if ownership is unclear in more than 2 critical blockers
+### Qualification Logic v1
+- Use RAG and ownership quality as primary signal for commitment decision.
+- Do not require implementation-level design to recommend commitment.
+- Require owner/date accountability for critical blockers.
+- Use a dated 2-week closure plan for any unresolved commit blockers.
 
 ## 5) Module B - Factory Intake Generator
 

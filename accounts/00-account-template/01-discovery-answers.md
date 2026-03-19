@@ -1,28 +1,49 @@
-# 01 - Discovery Answers (Q1-Q10)
+# 01 - Discovery Answers (SE Qualification for MCEM Commit)
 
 - Account Name:
 - Date:
 - SE Owner:
-- Customer PM:
+- Customer PM / Sponsor:
+- Opportunity Stage (Uncommitted/Committed):
+- Target Commit Date:
 
-## Core Answers
-- Q1 Business outcome and deadline:
-- Q2 Wave-1 in-scope and out-of-scope:
-- Q3 Top 3 dependencies (identity/network/data):
-- Q4 Identity readiness (MFA/CA/PAM):
-- Q5 Landing zone and networking readiness:
-- Q6 Subscription/quota/environment readiness:
-- Q7 Top blockers with owner and date:
-- Q8 Modernization opportunities now:
-- Q9 Security uplift opportunities:
-- Q10 AI opportunities in 6-8 weeks:
+## 1) Business and Decision Context
+- Business outcome we are selling:
+- Why now / deadline driver:
+- Decision criteria to move to committed:
+- Economic buyer and approval path:
 
-## Unknowns
-- 
+## 2) Wave-1 Scope (Presales Level)
+- In-scope workloads/capabilities (high level):
+- Out-of-scope for Wave-1:
+- Key assumptions for sizing and timeline:
+- Minimum customer inputs required to proceed:
 
-## Conditional Follow-Ups Triggered
-- Trigger A (Identity): Yes/No
-- Trigger B (LZ/Network): Yes/No
-- Trigger C (Scope/Dependency): Yes/No
-- Trigger D (Ownership): Yes/No
-- Trigger E (AI): Yes/No
+## 3) Readiness Snapshot (RAG + one line)
+- Identity/security readiness (MFA/CA/PAM): Green/Amber/Red -
+- Landing zone/network readiness: Green/Amber/Red -
+- Subscription/quota/environment readiness: Green/Amber/Red -
+- Data/dependency readiness: Green/Amber/Red -
+
+## 4) Risks to Commit (Top 3)
+- Risk 1 + impact + owner + target date:
+- Risk 2 + impact + owner + target date:
+- Risk 3 + impact + owner + target date:
+
+## 5) Value Expansion Signals (Tie to Business Outcome)
+- Modernization opportunities relevant now:
+- Security uplift opportunities:
+- AI opportunities feasible in 6-8 weeks:
+
+## 6) Unknowns That Block Commitment
+- Unknown:
+- Impact to commit milestone:
+- Owner:
+- Date to resolve:
+
+## 7) Uncommitted -> Committed Action Plan (Next 2 Weeks)
+- Customer actions required:
+- Microsoft actions required:
+- Required commit artifacts (scope note, ROM estimate, plan, risks):
+- Commit checkpoint date:
+- Commit exit criteria met? Yes/No

@@ -15,7 +15,7 @@
 - Story: As an SE, I can mark unknowns without blocking progress.
 
 ### Feature 2.2 - Readiness Scoring
-- Story: As a lead, I get a score and status threshold for nomination readiness.
+- Story: As a lead, I get a commit-confidence recommendation and rationale for stage movement.
 - Story: As a partner, I can see blockers with owner and due dates.
 
 ### Feature 2.3 - Dependency Mapping

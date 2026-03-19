@@ -5,7 +5,7 @@ Fill required fields first, then optional fields if known.
 
 Required now:
 - Engagement: Account, Date, SE Owner
-- Readiness Score: Score and Status
+- Commit Recommendation: move to Committed or stay Uncommitted with closure plan
 - Top Blockers: at least 3 with owner and due date
 - Dependency Sequence: at least 3 steps
 
@@ -18,24 +18,24 @@ Optional for later refinement:
 - Date:
 - SE Owner:
 - Migration Objective:
-- Target Nomination Date:
+- Target Commit Date:
 
-## Readiness Score
-- Score (0-100):
-- Status: Not Ready | Needs Pre-Work | Ready to Nominate
+## Commit Confidence
+- Recommendation: Move to Committed | Stay Uncommitted
+- Confidence Rationale (2-3 lines):
 
-## Domain Ratings
-| Domain | Score (0/1/2) | Notes |
-|---|---:|---|
-| Identity and access |  |  |
-| Landing zone |  |  |
-| Networking and connectivity |  |  |
-| Subscription and quota |  |  |
-| Security baseline |  |  |
-| Monitoring and operations |  |  |
-| UAT and testing |  |  |
-| Ownership and RACI |  |  |
-| Sequencing dependencies |  |  |
+## Readiness Snapshot (RAG)
+| Area | RAG | Notes |
+|---|---|---|
+| Identity and security | Green/Amber/Red |  |
+| Landing zone and network | Green/Amber/Red |  |
+| Subscription, quota, environments | Green/Amber/Red |  |
+| Data and dependencies | Green/Amber/Red |  |
+
+## Decision Path
+- Economic buyer:
+- Approval path:
+- Decision criteria to commit:
 
 ## Top Blockers
 | Blocker | Owner | Due Date | Impact | Status |
@@ -55,6 +55,11 @@ Optional for later refinement:
 5.
 
 ## Customer Decisions Required
+1.
+2.
+3.
+
+## Uncommitted -> Committed Closure Plan (If Needed)
 1.
 2.
 3.
